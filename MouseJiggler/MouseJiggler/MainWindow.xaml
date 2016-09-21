@@ -1,0 +1,13 @@
+﻿<Window x:Name="MouseJiggler" x:Class="MouseJiggler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Icon="Jiggle.ico">
+    <Grid>
+        <TextBox x:Name="InputMinutesBox" HorizontalAlignment="Left" Height="21" Margin="362,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102" TextChanged="InputMinutesBox_TextChanged_1"/>
+        <Button x:Name="MainButton" Content="Start" HorizontalAlignment="Left" Margin="235,240,0,0" VerticalAlignment="Top" Width="75" Click="MainButton_Click"/>
+        <TextBox x:Name="InfoBox" IsReadOnly="True" HorizontalAlignment="Left" Height="100" Margin="43,10,0,0" TextWrapping="Wrap" Text="This program will jiggle your mouse every so often, defined by the box below. Once a whole number value is in the box, click &quot;Start&quot; button to let the jiggling begin!" VerticalAlignment="Top" Width="421"/>
+        <TextBox x:Name="DisplayInputInstructions" HorizontalAlignment="Left" IsReadOnly="True" Height="23" Margin="43,135,0,0" TextWrapping="Wrap" Text="Minutes to wait (Whole numbers only):" VerticalAlignment="Top" Width="287"/>
+
+    </Grid>
+</Window>
