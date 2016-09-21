@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HelloWorldGit2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Optum Healthcare")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("HelloWorldGit2")]
-[assembly: AssemblyCopyright("Copyright © Optum Healthcare 2016")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
