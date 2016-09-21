@@ -10,9 +10,9 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("HelloWorldGit")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Optum Healthcare")> 
+<Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("HelloWorldGit")> 
-<Assembly: AssemblyCopyright("Copyright © Optum Healthcare 2016")> 
+<Assembly: AssemblyCopyright("")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
